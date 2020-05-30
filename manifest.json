@@ -1,0 +1,62 @@
+{
+  "author": "Galveston01",
+  "description": "React to input events, e.g. from a USB keyboard or remote",
+  "gateway_specific_settings": {
+    "webthings": {
+      "exec": "{nodeLoader} {path}",
+      "primary_type": "adapter",
+      "strict_max_version": "*",
+      "strict_min_version": "0.10.0"
+    }
+  },
+  "homepage_url": "https://github.com/Galveston01/input-event-adapter",
+  "id": "input-event-adapter",
+  "license": "GPL-3.0",
+  "manifest_version": 1,
+  "name": "Input Event",
+  "short_name": "Input",
+  "version": "0.1.3",
+
+  "options": {
+    "default": {
+      "devices": []
+    },
+    "schema": {
+      "type": "object",
+      "required": [
+        "devices"
+      ],
+      "properties": {
+        "devices": {
+          "title": "Define id and key values of your devices here",
+          "type": "array",
+          "readOnly": true,
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "title": "ID",
+                "type": "string",
+                "readOnly": true
+              },
+              "name": {
+                "title": "Name",
+                "type": "string",
+                "readOnly": true
+              },
+              "events": {
+                "title": "Events",
+                "type": "array",
+                "default": ["keydown"],
+                "items": {
+                  "type": "string",
+                  "default": "keydown"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

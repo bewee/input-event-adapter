@@ -1,0 +1,54 @@
+{
+  "name": "input-event-adapter",
+  "display_name": "Input Event",
+  "version": "0.1.3",
+  "description": "React to input events, e.g. from a USB keyboard or remote",
+  "author": "Galveston01",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "mozilla",
+    "iot",
+    "adapter",
+    "input",
+    "event",
+    "keyboard",
+    "remote"
+  ],
+  "homepage": "https://github.com/Galveston01/input-event-adapter",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Galveston01/input-event-adapter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Galveston01/input-event-adapter/issues"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0"
+  },
+  "files": [
+    "LICENSE.md",
+    "README.md",
+    "SHA256SUMS",
+    "manifest.json",
+    "index.js",
+    "lib/"
+  ],
+  "moziot": {
+    "api": {
+      "min": 2,
+      "max": 2
+    },
+    "type": "adapter",
+    "plugin": true,
+    "exec": "{nodeLoader} {path}"
+  },
+  "dependencies": {
+    "@abandonware/noble": "^1.9.2-8",
+    "minimist": "^1.2.5"
+  }
+}

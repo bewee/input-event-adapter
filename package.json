@@ -1,7 +1,7 @@
 {
   "name": "input-event-adapter",
   "display_name": "Input Event",
-  "version": "0.2",
+  "version": "0.2.1",
   "description": "React to input events, e.g. from a USB keyboard or remote",
   "author": "Galveston01",
   "main": "index.js",

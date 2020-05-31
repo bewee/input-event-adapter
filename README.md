@@ -31,3 +31,7 @@ Here you can add all events you need. The events keyup, keydown, keypress and da
 Using the Input Event devices, you can then create rules with the required events as a trigger.
 
 ![](https://user-images.githubusercontent.com/44091658/83340715-dac36f00-a2db-11ea-9b8f-e9e6e596e62d.PNG)
+
+# Power Button
+
+My remote happend to have a power button that shut down my Raspberry Pi whenever I hit it. In order to disable this functionality, follow <a href='https://amp.reddit.com/r/linux4noobs/comments/aem32x/how_to_turn_off_sleep_button_on_keyboard_for/'>the instructions provided here</a>.

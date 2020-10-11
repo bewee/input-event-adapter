@@ -22,15 +22,20 @@ Pressing a button on your physical device will cause an event to be raised in th
 
 (in order to show events that occured, click on a device and then on the three dots in the lower right corner and select event log)
 
-You can configure the events each device provides in the add-on settings
+You can configure the events and properties each device provides in the add-on settings
 
-![](https://user-images.githubusercontent.com/44091658/83340752-4c9bb880-a2dc-11ea-8e22-e1c075ba5c35.PNG)
+![](https://user-images.githubusercontent.com/44091658/95676436-70daa080-0bbe-11eb-9f7b-dfb55ce36fb8.png)
 
-Here you can add all events you need. The events keyup, keydown, keypress and data fire regardless of which key was pressed. These events are especially helpful to obtain the key names (can be found in the event log ("code_name"); e.g.: KEY_ENTER, KEY_BACKSPACE, KEY_MUTE, ...). You can also specify events that only react to specific keys (see image).
+Here you can add all events you need. The events keyup, keydown, keypress and data fire regardless of which key was pressed. These events are especially helpful to obtain the key names (can be found in the event log ("code_name"); e.g.: KEY_ENTER, KEY_BACKSPACE, KEY_MUTE, ...). You can also specify events that only react to specific keys (see image). Furthermore, you can define which keys to include properties for. Such a property will be true whenever the affiliated key is currently pressed down and else false.
 
-Using the Input Event devices, you can then create rules with the required events as a trigger.
+Using the Input Event devices, you can then create rules with the required events as a trigger
 
 ![](https://user-images.githubusercontent.com/44091658/83340715-dac36f00-a2db-11ea-9b8f-e9e6e596e62d.PNG)
+
+or use it in combination with the [Macros Add-On](https://github.com/Galveston01/macrozilla).
+
+![](https://user-images.githubusercontent.com/44091658/95676476-bac38680-0bbe-11eb-8011-ce18252a5569.png)
+
 
 # Power Button
 

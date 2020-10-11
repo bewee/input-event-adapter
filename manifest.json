@@ -52,6 +52,15 @@
                   "type": "string",
                   "default": "keydown"
                 }
+              },
+              "properties": {
+                "title": "Properties",
+                "type": "array",
+                "default": [],
+                "items": {
+                  "type": "string",
+                  "default": ""
+                }
               }
             }
           }

@@ -28,7 +28,7 @@
       ],
       "properties": {
         "devices": {
-          "title": "Define id and key values of your devices here",
+          "title": "Your connected devices should automatically appear here",
           "type": "array",
           "readOnly": true,
           "items": {

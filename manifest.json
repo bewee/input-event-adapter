@@ -1,5 +1,5 @@
 {
-  "author": "Galveston01",
+  "author": "bewee",
   "description": "React to input events, e.g. from a USB keyboard or remote",
   "gateway_specific_settings": {
     "webthings": {
@@ -9,7 +9,7 @@
       "strict_min_version": "0.10.0"
     }
   },
-  "homepage_url": "https://github.com/Galveston01/input-event-adapter",
+  "homepage_url": "https://github.com/bewee/input-event-adapter",
   "id": "input-event-adapter",
   "license": "GPL-3.0",
   "manifest_version": 1,

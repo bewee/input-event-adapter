@@ -6,7 +6,12 @@ If you happen to experience any problems, feel free to open an issue or a pull r
 # Setup
 Install this add-on through the WebThings gateway's add-on list.
 
-The user `pi` has to be allowed to execute the `evtest` command with root privileges. In order to achieve this, connect to your Pi via SSH and execute the following command:
+First of all, you have to install the command `evtest`. In order to achieve this, connect to your Pi via SSH and execute the following command:
+```
+sudo apt-get install evtest
+```
+
+Furthermore, the user `pi` has to be allowed to execute this command with root privileges:
 ```
 sudo chmod u+s /usr/bin/evtest
 ```

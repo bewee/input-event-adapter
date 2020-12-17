@@ -1,5 +1,5 @@
 # Input Event Adapter
-This add-on for the Mozilla WebThings Gateway allows you to use input events from USB devices attached to your Pi to control your IoT. I use <a href='https://www.amazon.com/dp/B07RFN8Z47'>this USB remote</a> in order to control my WiFi radio device, but you should be able to use all kinds of USB devices (keyboards, mice, ...) to control all devices connected to your MozillaIOT Gateway (plugs, lights, ...).
+This add-on for WebThings Gateway allows you to use input events from USB devices attached to your Pi to control your IoT. I use <a href='https://www.amazon.com/dp/B07RFN8Z47'>this USB remote</a> in order to control my WiFi radio device, but you should be able to use all kinds of USB devices (keyboards, mice, ...) to control all devices connected to your WebThings Gateway (plugs, lights, ...).
 
 If you happen to experience any problems, feel free to open an issue or a pull request.
 

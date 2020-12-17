@@ -15,7 +15,7 @@
   "manifest_version": 1,
   "name": "Input Event",
   "short_name": "Input",
-  "version": "0.2.4",
+  "version": "0.2.5",
 
   "options": {
     "default": {
